@@ -1,0 +1,30 @@
+.profile{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	width: 400px;
+	background-color: white;
+	border-radius: 2px;
+	text-align: center;
+}
+.foto{
+	padding: 10px;
+	border-radius: 50%;
+	background-color: aqua;
+}
+.stats{
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	
+}
+
+.item{
+	width: calc(100% / 3);
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	background-color: gray;
+}
