@@ -1,0 +1,23 @@
+.statistics{
+	width: 500px;
+	background-color: bisque;
+	margin: 10px auto;
+}
+.title{
+	font-weight: 700;
+	text-align: center;
+}
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding-left: 0;
+}
+.item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+}
