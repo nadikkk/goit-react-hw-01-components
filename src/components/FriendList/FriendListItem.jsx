@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import css from './FriendListItem.module.css';
 
-export function FriendListItem({avatar, name, isOnline}) {
+export function FriendListItem({ avatar, name, isOnline }) {
   return (
     <>
       <span className={isOnline ? css.statusOn : css.statusOff}></span>
